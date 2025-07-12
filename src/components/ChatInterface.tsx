@@ -186,7 +186,10 @@ function ChatInterface() {
                         : "text-muted-foreground"
                     }`}
                   >
-                    {message.timestamp.toLocaleTimeString().substring(0, 5)}
+                    {message.timestamp.toLocaleTimeString([], {
+                      hour: "2-digit",
+                      minute: "2-digit"
+                    })}
                   </div>
                 </Card>
 
