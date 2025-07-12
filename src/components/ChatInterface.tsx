@@ -176,7 +176,7 @@ function ChatInterface() {
                   <div className="whitespace-pre-wrap break-words">
                     {message.content}
                     {message.isStreaming && (
-                      <span className="inline-block w-10 h-5 bg-muted-foreground animate-pulse ml-1 rounded-xl" />
+                      <span className="inline-block w-2 h-5 bg-muted-foreground animate-pulse ml-1 rounded-xl" />
                     )}
                   </div>
                   <div
